@@ -66,7 +66,9 @@ nav ul li{
 }
 
 .btn-home{
-	width: 84px;
+	text-decoration: none;
+	text-align: center;
+	width: 97px;
     height: 28px;
     padding: 9px;
     font-size: 18px;
@@ -74,4 +76,30 @@ nav ul li{
     background-color: green;
     border-radius: 5px;
     border: 3px solid green;
+}
+
+/*Service*/
+
+#services{
+	background-color: #F17C72;
+	text-align: center;
+	color: #fff;
+	padding: 70px;
+}
+
+#services.flex-container{
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.box-services{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+footer{
+	background-color: #1C1615;
+	text-align: center;
+	color: whitesmoke;
+	padding: 15px;
 }
