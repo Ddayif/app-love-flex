@@ -78,7 +78,12 @@ nav ul li{
     border: 3px solid green;
 }
 
-/*Service*/
+/*Services*/
+
+.title{
+	font-size: 50px;
+}
+
 
 #services{
 	background-color: #F17C72;
@@ -96,6 +101,37 @@ nav ul li{
 	font-size: 1.2em;
 	font-weight: bold;
 }
+
+
+/*Aca comienza la seccion work*/
+#work{
+	text-align: center;	
+	padding: 70px;
+}
+
+#work.flex-container{
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.flex-container img{
+	width: 100%;
+}
+
+
+/*Aca comienza la seccion imagenes*/
+
+.flex-container .img{
+	width: 80%;
+    margin: 80px 0;
+    margin-left: 50px;
+}
+
+
+
+
+
+/*Aca comienza mi footer*/
 
 footer{
 	background-color: #1C1615;
