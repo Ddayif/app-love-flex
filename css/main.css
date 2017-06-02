@@ -68,7 +68,7 @@ nav ul li{
 .btn-home{
 	text-decoration: none;
 	text-align: center;
-	width: 97px;
+	width: 118px;
     height: 28px;
     padding: 9px;
     font-size: 18px;
@@ -123,11 +123,14 @@ nav ul li{
 
 .flex-container .img{
 	width: 80%;
-    margin: 80px 0;
+    margin: 50px 0;
     margin-left: 50px;
 }
 
-
+.project{
+	font-size: 25px;
+	text-align: center;
+}
 
 
 
