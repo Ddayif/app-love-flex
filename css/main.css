@@ -1,10 +1,10 @@
 body {
-  margin: 0 auto;
-  font-size: 16px;
-  line-height: 1.71429;
-  background-color: #fff;
-  /* Enlaza la tipografia Open Sans */
-  font-family: 'Open Sans Condensed', sans-serif;
+	margin: 0 auto;
+	font-size: 16px;
+	line-height: 1.71429;
+	background-color: #fff;
+	/* Enlaza la tipografia Open Sans */
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .flex-container{
@@ -73,13 +73,13 @@ nav ul li{
 	text-decoration: none;
 	text-align: center;
 	width: 118px;
-    height: 28px;
-    padding: 9px;
-    font-size: 18px;
-    color: whitesmoke;
-    background-color: green;
-    border-radius: 5px;
-    border: 3px solid green;
+	height: 28px;
+	padding: 9px;
+	font-size: 18px;
+	color: whitesmoke;
+	background-color: green;
+	border-radius: 5px;
+	border: 3px solid green;
 }
 
 
@@ -130,15 +130,14 @@ nav ul li{
 
 .flex-container .img{
 	width: 80%;
-    margin: 50px 0;
-    margin-left: 50px;
+	margin: 50px 0;
+	margin-left: 50px;
 }
 
 .project{
 	font-size: 25px;
 	text-align: center;
 }
-
 
 
 /**********Aca comienza mi footer*********/
