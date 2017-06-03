@@ -2,7 +2,7 @@
  * Archivo principal de funcionalidad de JS
  */
 
-(function main(){
+ (function main(){
  	var trabajos = Array.from(document.getElementsByClassName("imagenes"));
  	var nuevoDiv = document.getElementById("box-modal");
  	var mostrar, cerrar, img;
@@ -18,7 +18,7 @@
  			nuevoDiv.appendChild(mostrar);// le damos a la variable mostrar un hijo que seria nuevoDiv
  			nuevoDiv.classList.remove("hide");
 
-			
+ 			
  			cerrar = document.createElement("div");// crea un nuevo div al que se le da como clase equis
  			cerrar.classList.add("equis");
  			img = document.createElement("img");
@@ -28,10 +28,10 @@
 			mostrar.appendChild(cerrar);
 
 			cerrar.addEventListener("click", function(){
-			nuevoDiv.classList.add("hide");
+				nuevoDiv.classList.add("hide");
 			});
- 			
- 		});
+			
+		});
  	});
 
  })()

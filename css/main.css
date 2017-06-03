@@ -142,34 +142,34 @@ nav ul li{
 /***********js dinamico no funciona*************/
 
 #box-modal{
-  background-color: rgba(0,185,143,0.85);
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
+	background-color: rgba(0,185,143,0.85);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
 }
 
 .hide{
-  display: none;
+	display: none;
 }
 
 #box-modal .modal{
-  width: 60%;
-  margin: 0 auto;
-  padding: 100px;
+	width: 60%;
+	margin: 0 auto;
+	padding: 100px;
 }
 
 .modal img{
-  width: 100%;
+	width: 100%;
 }
 
 #box-modal .equis{ /*Da estilo a mi equis*/
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  cursor: pointer;
-  width: 45px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	cursor: pointer;
+	width: 45px;
 }
 
 
